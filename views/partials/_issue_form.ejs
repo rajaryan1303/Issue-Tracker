@@ -13,7 +13,7 @@
   <style>
     .neon-effect {
       box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0000,
-        0 0 70px #ff0000, 0 0 80px red, 0 0 100px red, 0 0 150px #ff0000;
+        0 0 70px #463f3f, 0 0 80px rgb(39, 31, 31), 0 0 100px rgb(47, 37, 37), 0 0 150px #2d1919;
       animation: neon 1s ease-in-out infinite alternate;
     }
 
@@ -39,7 +39,7 @@
 >
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header" style="background-color: black; color: white">
+      <div class="modal-header" style="background-color: rgb(0, 0, 0); color: white">
         <!-- Content here -->
         <h5 class="modal-title" id="exampleModalLabel">Create a Issue</h5>
         <button
@@ -47,14 +47,14 @@
           class="btn-close"
           data-bs-dismiss="modal"
           aria-label="Close"
-          style="color: rgb(255, 15, 15)"
+          style="color: rgb(23, 7, 112)"
         ></button>
       </div>
       <form
         class="border border-light border-3"
         action="/project/<%=project._id%>"
         method="POST"
-        style="background-color: #f7f726"
+        style="background-color: #0ced7d"
       >
         <div class="row mb-3 m-auto">
           <label for="titlelabel" class="col-sm-4 col-form-label">Title</label>
